@@ -1,0 +1,118 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+* {border:0; padding: 0; margin: 0;}
+.clear {clear: both;}
+
+a:hover {color: #30968e; transition: 0.5s; text-decoration: none;}
+a {color: #45b6ad; transition: 0.5s; text-decoration: none;}
+
+body {
+	font-family: 'Raleway', sans-serif;
+	height: 100%;
+	color: #999;
+	margin: 0;
+	padding: 0;
+}
+
+html {height: 100%}
+
+h1, h2, h3, strong {font-weight: 500;}
+h1, h2, h3, p {padding: 0.5% 0;}
+
+h1 {}
+h2 {}
+h3 {padding-top: 2.5%}
+p {font-size: 14px; line-height: 22px;}
+
+.perfil {
+	width: 25%;
+    height: 95%;
+    padding: 2.5%;
+    background-color: #f8f8f8;
+    text-align: center;
+    float: left;
+    position: fixed;
+}
+
+	.perfil .foto {border-radius: 50%; width: 60%; margin-bottom: 2.5%; max-width: 150px}
+
+	.perfil .nome {font-size: 26px;}
+	.perfil .cargo {font-size: 18px;}
+	.perfil .cidade {font-size: 12px}
+	.perfil .contato {font-size: 16px}
+
+	.perfil .midias {width: 80px; margin: 0 auto; padding-top: 2%}
+		.perfil .midias .icone {margin: 0 5%; float: left;}
+
+.descricao {width: 70%; float: right;}
+	.descricao .item {padding: 2.5% 0; border-bottom: 1px solid #f8f8f8; margin: 0 2.5%}
+	.descricao .item .data {font-size: 12px}
+	.descricao .item .barra {border-left: 2px solid #45b6ad; padding-left: 1%}
+	.descricao .item ul {}
+	.descricao .item ul li {list-style: #f8f8f8; margin-left: 2.5%; font-size: 14px; padding: 0.3% 0}
+
+@media screen and (min-width: 600px) {
+	.topo, .arrow {display: none;}
+}
+
+
+@media screen and (max-width: 970px) {
+	.perfil .nome {font-size: 24px;}
+	.perfil .cargo {font-size: 16px;}
+	.perfil .cidade {font-size: 10px}
+	.perfil .contato {font-size: 14px}
+}
+
+@media screen and (max-width: 600px) {
+	.perfil {width: 95%; height: auto; position: relative;}
+	.descricao {width: 100%;}
+
+	.topo {
+		top: -70px; 
+		position: fixed;
+		width: 97%;
+		padding: 1.5%;
+		background: #f8f8f8;
+		transition: 0.5s;
+		z-index: 9999
+	}
+
+	.topo-fixo {
+		top: 0!important;
+		position: fixed;
+		width: 97%;
+		padding: 1.5%;
+		display: block;
+		background: #f8f8f8;
+		transition: 0.5s;
+		z-index: 9999;
+		box-shadow: 0px 0px 30px 0px #888888;
+	}
+	.topo-fixo img, .topo img {border-radius: 50%; height: 50px; float: left;}
+	.topo-fixo p, .topo p {border-radius: 50%; height: 50px; float: left; padding-left: 2.5%}
+
+	.arrow {
+		position: fixed;
+    	bottom: -20%;
+    	right: 2%;
+    	background: #f8f8f8;
+    	border-radius: 50%;
+    	padding: 0px 1%;
+    	cursor: pointer;
+    	transition: 0.5s
+	}
+
+	.arrow-fixo {
+		position: fixed;
+    	bottom: 2%!important;
+    	right: 2%;
+    	background: #f8f8f8;
+    	border-radius: 50%;
+    	padding: 0px 1%;
+    	cursor: pointer;
+    	transition: 0.5s
+    }
+}
+
