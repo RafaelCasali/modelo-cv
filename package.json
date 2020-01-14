@@ -1,0 +1,24 @@
+{
+  "name": "curriculo",
+  "version": "0.0.1",
+  "description": "Modelo curriculo",
+  "main": "index.html",
+  "scripts": {
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rpcasali/modelo-cv.git"
+  },
+  "keywords": [
+    "curriculo",
+    "cv",
+    "modelo"
+  ],
+  "author": "Rafael Casali",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rpcasali/modelo-cv/issues"
+  },
+  "homepage": "https://github.com/rpcasali/modelo-cv#readme"
+}

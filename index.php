@@ -19,8 +19,8 @@
     <link href='https://fonts.googleapis.com/css?family=Raleway:400,500,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
 
-    <script type='text/javascript' src='http://www.agenciataio.com.br/js/jquery-1.7.1.min.js'></script>
-    <script type='text/javascript' src='http://www.agenciataio.com.br/js/jquery.easing.1.3.js'></script> 
+    <script type='text/javascript' src='/js/jquery-1.7.1.min.js'></script>
+    <script type='text/javascript' src='/js/jquery.easing.1.3.js'></script> 
 
 	<link rel="stylesheet" type="text/css" href="css/style.css"/>
 	<link rel="shortcut icon" href="favicon.ico" />
